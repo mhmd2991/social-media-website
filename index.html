@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/general.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Social Media Website</title>
+</head>
+
+<body class="bg-red">
+    <div class="container wrapper d-flex align-items-center justify-content-center">
+        <div class="sign-in-page bg-white b-rd-3 d-l-flex">
+            <div class="header p-relative">
+                <img src="img/cm-logo.png" alt="logo">
+                <p>
+                    Workwise, is a global freelancing platform and social networking where businesses and independent
+                    professionals connect and collaborate remotely
+                </p>
+                <div class="right d-none d-l-block">
+                    <img src="img/cm-main-img.png" alt="main">
+                </div>
+            </div>
+            <div class="main p-relative">
+                <div class="switcher d-flex align-items-center">
+                    <a href="#" class="sign-in c-black fs-14 active" data-section="sign-in-sec">Sign in</a>
+                    <a href="#" class="sign-up c-black fs-14" data-section="sign-up-sec">Sign up</a>
+                </div>
+                <div class="sec sign-in-sec d-none active">
+                    <h3 class="c-balck p-relative">Sign in</h3>
+                    <form class="d-flex flex-d-column" action="home.html">
+                        <div class="form-group">
+                            <div class="inner-input fs-14 lightGray d-flex align-items-center">
+                                <i class="fas fa-user"></i>
+                                <input type="text" placeholder="Username" class="outline-0 b-0 w-100">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="inner-input fs-14 lightGray d-flex align-items-center">
+                                <i class="fas fa-lock"></i>
+                                <input type="password" placeholder="Password" class="outline-0 b-0 w-100">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="inner-input fs-14 lightGray d-flex align-items-center justify-content-space-between">
+                                <div class="check d-flex align-items-center">
+                                    <input type="checkbox" name="" id="rm" class="d-none">
+                                    <label for="rm">
+                                        <span class="p-relative b-rd-50 pointer"></span>
+                                    </label>
+                                    <small class="c-black fs-14">Remember me</small>
+                                </div>
+                                <a href="#" class="t-capitalize c-black fs-14">forget password?</a>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <button type="submit" class="btn bg-red">Sign in</button>
+                        </div>
+                    </form>
+                    <div class="login-resources">
+                        <h4 class="t-uppercase c-black">login via social account</h4>
+                        <div class="social d-flex align-items-center flex-wrap-wrap flex-d-xl-column">
+                            <a href="#" class="t-capitalize c-white d-flex align-items-center b-rd-3">
+                                <i class="fab fa-facebook-f"></i>
+                                login via facebook
+                            </a>
+                            <a href="#" class="t-capitalize c-white d-flex align-items-center b-rd-3">
+                                <i class="fab fa-twitter"></i>
+                                login via twitter
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="sec sign-up-sec d-none">
+                    <h3 class="c-balck p-relative">Sign up</h3>
+                    <form class="d-flex flex-d-column">
+                        <div class="form-group">
+                            <div class="inner-input fs-14 lightGray d-flex align-items-center">
+                                <i class="fas fa-at"></i>
+                                <input type="email" placeholder="johndoe@example.com" class="outline-0 b-0 w-100" required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="inner-input fs-14 lightGray d-flex align-items-center">
+                                <i class="fas fa-user"></i>
+                                <input type="text" placeholder="Full Name" class="outline-0 b-0 w-100">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="inner-input fs-14 lightGray d-flex align-items-center">
+                                <i class="fas fa-globe-asia"></i>
+                                <input type="text" placeholder="Country" class="outline-0 b-0 w-100">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="inner-input lightGray d-flex align-items-center">
+                                <i class="fas fa-lock"></i>
+                                <input type="password" placeholder="Password" class="outline-0 b-0 w-100" required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="inner-input lightGray d-flex align-items-center">
+                                <i class="fas fa-lock"></i>
+                                <input type="password" placeholder="Repeat Password" class="outline-0 b-0 w-100" required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="inner-input lightGray d-flex align-items-center justify-content-space-between">
+                                <div class="check d-flex align-items-center">
+                                    <input type="checkbox" name="" id="confirm" class="d-none">
+                                    <label for="confirm">
+                                        <span class="p-relative b-rd-50 pointer"></span>
+                                    </label>
+                                    <small class="c-black fs-14">Yes, I understand and agree to the workwise Terms &
+                                        Conditions.</small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <button type="submit" class="btn bg-red t-capitalize">get started</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/9e5ba2e3f5.js" crossorigin="anonymous"></script>
+    <script src="js/index.js"></script>
+</body>
+
+</html>
